@@ -1,0 +1,55 @@
+p {
+    font-size: 15px;
+    color: rgb(165, 121, 97);
+}
+h5 {
+    font-size: 27px;
+    color: rgb(249, 122, 198);
+}
+div {
+    font-size: 30px;
+    text-align: center; 
+    color: azure; 
+}
+
+img {
+    width: 400px;
+    text-align: center;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#main .nav1 {
+    background-color: #ff8787;
+}
+
+#main2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+
+footer {
+    font-size: 30px;
+    text-align: center;
+    background-color: #ff8787;
+    color: azure;
+}
+
+@media (max-width:768px){ /* 가로 너비가 768px 이하일 때 아래 스타일 적용*/
+    #main {
+        display: block;
+    }
+    #main2 {
+        display: block;
+    }
+    #main2 .card1 {
+        display: center;
+    }
+    #img {
+        display: block;
+    }
+}

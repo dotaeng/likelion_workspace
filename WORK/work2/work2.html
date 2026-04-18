@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="work2.css">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@900&display=swap');
+        .yellow {
+            background-color: yellow;
+        }
+        h1 {
+            background-color: skyblue;
+        }
+       div h1 {
+        border: 5px solid rgb(255, 55, 108);
+       }
+
+      </style>
+</head>
+<body>
+    <p>오늘 스터디에서는 CSS를 배웠다.
+        먼저 link 태그와 import 태그를 배웠다.
+        link 태그에서 href=에는 css파일의 경로를 작성하면 된다.
+        import 태그는 외부에 파일을 나의  파일로 가져와서 사용할 수 있다.</p><br>
+    <p id="selector">선택자란 css 효과 적용을 어떤태그에 할 것인지 정해주는 것이다.</p><br>
+    <div class="yellow">id 태그는 절대 중복이 되어서는 안되고 class 태그는 비슷한 특성을 주고 싶은 태그들이 여러개일떄 사용하면 된다.
+    </div>
+    <div>선택자에는 부모 태그를 이용해서
+        <h1>자식 태그에게 css 효과를 주는</h1>
+        <div>부모 자식 선택자가 있다.</div>
+    </div>
+</body>
+</html>

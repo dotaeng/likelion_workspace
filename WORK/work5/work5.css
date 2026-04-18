@@ -1,0 +1,38 @@
+p1 {
+    font-family: 'Black Han Sans', sans-serif;
+    color: rgb(249, 98, 184);
+    font-size: 56px;
+}
+
+h{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 22px;
+    color: rgb(44, 43, 43);
+}
+
+p {
+    font-family: 'Gowun Batang', serif;
+    font-size: 14px;
+}
+
+p2 {
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+}
+
+p3 {
+    font-family: 'Black Han Sans', sans-serif;
+    color: rgb(203, 57, 140);
+    font-size: 20px;
+}
+
+p4 {
+    font-family: 'Gowun Batang', serif;
+    font-size: 15px;
+}
+
+b {
+    font-family: 'Gowun Batang', serif;
+    font-size: 16px;
+    color: rgb(162, 70, 212);
+}

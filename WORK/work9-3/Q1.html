@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>문제 1. 버튼이 눌리면 경고 대화상자를 표시하는 자바스크립트 프로그램을 작성하시오
+    </h2>
+    <button id="alert">버튼을 누르세요</button>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+  const alertButton = document.getElementById("alert");
+
+  alertButton.addEventListener("click", function() {
+    alert("경고 메시지입니다.");
+  });
+});
+    </script>
+    
+</body>
+</html>

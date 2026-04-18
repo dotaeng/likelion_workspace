@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>문제2. 버튼이 눌리면 글자의 내용과 글자색 및 글자 배경색이 변경되도록 자바스크립트 프로그램을
+        작성하시오.
+    </h2>
+  <p id="pStyle">멋쟁이 사자처럼</p>
+  <button id="btn">스타일 변경</button>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const btn = document.getElementById("btn");
+    const pStyle = document.getElementById("pStyle");
+
+    btn.addEventListener("click", function() {
+        
+        const newTextStyle = {
+        color: "red",           
+        backgroundColor: "blue"
+        };
+
+       
+        for (const property in newTextStyle) {
+            pStyle.style[property] = newTextStyle[property];
+        }
+
+  });
+});
+    </script>
+</body>
+</html>
